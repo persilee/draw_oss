@@ -1,0 +1,71 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/ios/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# 配置文件
+/assets/env/
+
+# 忽略使用json_serializable工具生成的代码
+*.g.dart
+
+# 忽略国际化工具自动生成的工具
+/lib/generated/
+
+# 忽略mock代码
+*.mocks.dart
+test/hive_generated/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+debug
+lib/node_modules
+
+# 安装包
+android/app/release/
+*.apk
+*.ipa
+*.aab
+
+
+#切换SDK生成的文件
+.vscode/settings.json
+
+#调试器配置
+.vscode/launch.json
+android/app/intermediate.zip
